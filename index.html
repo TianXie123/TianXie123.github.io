@@ -1,6 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<script>
+		if (sessionStorage.getItem("auth") !== "ok") {
+			location.href = "login.html";
+		}
+	</script>
+	
 	<title>To 子炘 </title>  
 <meta name="keywords" content="" />
 <meta name="description" content="" />
